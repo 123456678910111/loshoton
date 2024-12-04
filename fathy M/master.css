@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black ;
+}
+
+.idd {
+    background-color: red;
+    width: 30%;
+    height: 7vh;
+display: flex;
+margin: 1rem;
+margin-left: 20rem;
+font-size: 30px;
+color: #fff;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+ .idd .car {
+    margin-left: 1rem;
+    color:yellow;
+    font-size: 30px;
+align-items: center;
+} 
+
+.idd .pp {
+    margin-left: 0.2rem;
+    color: #fff;
+    font-size: 30px;
+align-items: center;
+}
+
+#iid {
+    background-color: #eee;
+    width: 30%;
+    height: 30vh;
+    margin-left: 20rem;
+    display: grid;
+grid-template-columns: repeat(3 , 1fr);
+grid-template-rows: repeat(3 , auto);
+gap: 10px;
+text-align: center;
+}
+
+#iid p {
+background-color: red;
+
+color: #fff;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+cursor: pointer;
+}
+
+#iid p:hover {
+    background-color: black;
+}
+
+
+@media(max-width:500px) {
+    .idd {
+        background-color: red;
+        width: 60%;
+        height: 7vh;
+    display: flex;
+    margin: 1rem;
+margin-left: 4rem;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+    
+     .idd .car {
+        margin-left: 1rem;
+        color:yellow;
+        font-size: 40px;
+    align-items: center;
+    } 
+    
+    .idd .pp {
+        margin-left: 0.2rem;
+        color: #fff;
+        font-size: 40px;
+    align-items: center;
+    }
+    
+    #iid {
+        background-color: #eee;
+        width: 60%;
+        height: 30vh;
+        margin-left: 4rem;
+        display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , auto);
+    gap: 10px;
+    text-align: center;
+    }
+    
+    #iid p {
+    background-color: red;
+    
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    }
+
+}
